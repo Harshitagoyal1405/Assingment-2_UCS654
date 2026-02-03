@@ -37,23 +37,23 @@
 
 |       | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |
 |-------|-----------|-----------|-----------|-----------|-----------|
-| **M1** | XX.XX | XX.XX | XX.XX | XX.XX | XX.XX |
-| **M2** | XX.XX | XX.XX | XX.XX | XX.XX | XX.XX |
-| **M3** | XX.XX | XX.XX | XX.XX | XX.XX | XX.XX |
-| **M4** | XX.XX | XX.XX | XX.XX | XX.XX | XX.XX |
-| **M5** | XX.XX | XX.XX | XX.XX | XX.XX | XX.XX |
+| **M1** | 89.5 | 89.0 | 92.5 | 89.5 | 90.5 |
+| **M2** | 97.5 | 96.0 | 95.0 | 96.0 | 97.0 |
+| **M3** | 99.5 | 99.0 | 100.0 | 99.5 | 99.5 |
+| **M4** | 76.0 | 66.5 | 68.0 | 64.5 | 74.0 |
+| **M5** | 90.5 | 88.0 | 89.0 | 88.0 | 91.5 |
 
 ### Best Sampling Technique for Each Model
 
 | Model | Model Name | Best Sampling | Accuracy (%) |
 |-------|------------|---------------|--------------|
-| M1 | Logistic Regression | SamplingX | XX.XX |
-| M2 | Decision Tree | SamplingX | XX.XX |
-| M3 | Random Forest | SamplingX | XX.XX |
-| M4 | SVM | SamplingX | XX.XX |
-| M5 | KNN | SamplingX | XX.XX |
+| M1 | Stratified Sampling | Sampling3 | 92.50% |
+| M2 | Simple Random Sampling | Sampling1 | 97.50% |
+| M3 | Stratified Sampling | Sampling3 | 100.00% |
+| M4 | Simple Random Sampling | SamplingX | 76.00% |
+| M5 | Bootstrap Sampling | Sampling5 | 91.50% |
 
 ### 🏆 Overall Best Combination
-- **Model**: MX (Model Name)
-- **Sampling Technique**: SamplingX
-- **Accuracy**: XX.XX%
+- **Model**: M3 (Random Forest Classifier)
+- **Sampling Technique**: Sampling3
+- **Accuracy**: 100.00%
