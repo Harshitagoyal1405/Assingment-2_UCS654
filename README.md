@@ -50,7 +50,7 @@
 | M1 | Stratified Sampling | Sampling3 | 92.50% |
 | M2 | Simple Random Sampling | Sampling1 | 97.50% |
 | M3 | Stratified Sampling | Sampling3 | 100.00% |
-| M4 | Simple Random Sampling | SamplingX | 76.00% |
+| M4 | Simple Random Sampling | Sampling1 | 76.00% |
 | M5 | Bootstrap Sampling | Sampling5 | 91.50% |
 
 ### 🏆 Overall Best Combination
